@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.start{
+    margin: 0 250px;
+    margin-top: 250px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.start h1{
+    font-size: 55px;
+    color: blue;
+}
+
+.start p{
+    font-size: 25px;
+}
+
+.end{
+    margin-left: 950px;
+    margin-top: -130px;
+    border: 1px solid black;
+    width: 350px;
+    min-height: 280px;
+    padding: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.end input{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+}
+
+.btn{
+    text-align: center;
+    width: 100%;
+}
+
+.btn button{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.login{
+    background-color: #1877f2;
+    color: white;
+    font-weight: bold;
+}
+
+.btn a{
+    display: block;
+    margin: 15px 0;
+    color: #1877f2;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.create{
+    background-color: #42b72a;
+    color: white;
+    font-weight: bold;
+}
+
+/* Responsive design */
+@media (max-width: 900px){
+    .start{
+        margin: 50px 20px 30px;
+        text-align: center;
+    }
+
+    .start h1{
+        font-size: 45px;
+    }
+
+    .start p{
+        font-size: 18px;
+    }
+
+    .end{
+        margin: 0 auto;
+        width: min(350px, 90%);
+    }
+}
